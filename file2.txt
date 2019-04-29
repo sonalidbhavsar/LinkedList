@@ -1,0 +1,15 @@
+When i have added this file using git add , the file goes in staging area. Now after adding I am making changes to file . Git diff will show changes between file in staging area and working directory(on PC).
+
+Output of git diff,
+F:\workspaceGit\LinkedList>git diff
+diff --git a/file2.txt b/file2.txt
+index e69de29..b464790 100644
+--- a/file2.txt
++++ b/file2.txt
+@@ -0,0 +1 @@
++When i have added this file using git add , the file goes in staging area. Now
+after adding I am making changes to file . Git diff will show changes .
+\ No newline at end of file
+
+
+i have not yet commited the changes after adding this file, so this file is unstaged yet. git diff --staged shows differences between staging area and last commit
