@@ -13,3 +13,6 @@ after adding I am making changes to file . Git diff will show changes .
 
 
 i have not yet commited the changes after adding this file, so this file is unstaged yet. git diff --staged shows differences between staging area and last commit
+
+
+commiting one more time changing the file to check if i get ahead of master/origin.
